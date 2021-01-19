@@ -2983,35 +2983,38 @@ nav .menu-icon {
 }
 
 .titarchives-paralax .paralax-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .titarchives-paralax .paralax-wrap .paralax-heading {
   text-align: center;
-  font-size: 5.2rem;
+  font-size: 2.4rem;
   font-weight: bold;
-  text-shadow: 0 0 5px #1d1d1d;
-  color: white;
+  color: #F4F4ED;
+  padding-top: 4rem;
 }
 
 .titarchives-paralax .paralax-wrap .paralax-btn {
   text-align: center;
   padding: 1rem 3.8rem;
-  margin-top: 3rem;
   font-size: 2.6rem;
+}
+
+.titarchives-paralax .paralax-wrap .button-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.titarchives-paralax .paralax-wrap .button-center .button-projects {
+  margin-top: 6rem;
+  margin-right: 2rem;
 }
 
 #about_me_gradnja {

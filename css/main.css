@@ -1251,11 +1251,15 @@ nav .menu-icon {
 
 .header__text-box {
   position: absolute;
-  top: 45%;
+  top: 30%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.header__text-box .paralax-btn {
+  margin-right: 2rem;
 }
 
 .header__text-box .btn--whitee {

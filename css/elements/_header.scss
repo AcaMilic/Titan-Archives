@@ -42,10 +42,14 @@
 
   &__text-box {
     position: absolute;
-    top: 45%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+
+    .paralax-btn{
+      margin-right: 2rem;
+    }
 
     .btn--whitee{
       margin-right: 2rem;

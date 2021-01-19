@@ -47,6 +47,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
 
+
     .paralax-btn{
       margin-right: 2rem;
     }
@@ -57,7 +58,7 @@
 
 
     @include respond(phone) {
-      top: 45%;
+      top: 30%;
       width: 100%;
     }
   }

@@ -1160,10 +1160,17 @@ nav ul .services .services-links li {
 }
 
 nav .logo {
-  width: 25%;
+  width: 23%;
   position: absolute;
   text-align: left;
-  margin: 5rem auto;
+  margin: 4rem auto;
+}
+
+@media only screen and (max-width: 75em) {
+  nav .logo {
+    width: 30%;
+    margin: 3.8rem auto;
+  }
 }
 
 nav .logo img {
@@ -1173,7 +1180,14 @@ nav .logo img {
 @media only screen and (max-width: 56.25em) {
   nav .logo {
     top: -1rem;
+    width: 45%;
     margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  nav .logo {
+    width: 70%;
   }
 }
 
@@ -1268,7 +1282,7 @@ nav .menu-icon {
 
 @media only screen and (max-width: 37.5em) {
   .header__text-box {
-    top: 45%;
+    top: 30%;
     width: 100%;
   }
 }
@@ -2846,6 +2860,13 @@ nav .menu-icon {
   margin-bottom: 13rem;
 }
 
+@media only screen and (max-width: 56.25em) {
+  #about_me_archives {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
 #about_me_archives .content p {
   color: #00223e;
 }
@@ -2883,6 +2904,7 @@ nav .menu-icon {
 @media only screen and (max-width: 56.25em) {
   #about_me_archives .logo_titan img {
     width: 100%;
+    margin-top: -3rem;
   }
 }
 
@@ -2995,7 +3017,19 @@ nav .menu-icon {
   font-size: 2.4rem;
   font-weight: bold;
   color: #F4F4ED;
-  padding-top: 4rem;
+  padding-top: 10rem;
+}
+
+@media only screen and (min-width: 112.5em) {
+  .titarchives-paralax .paralax-wrap .paralax-heading {
+    padding-top: 9rem;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  .titarchives-paralax .paralax-wrap .paralax-heading {
+    padding-top: 14rem;
+  }
 }
 
 .titarchives-paralax .paralax-wrap .paralax-btn {
@@ -3159,12 +3193,32 @@ nav .menu-icon {
   font-size: 5.5rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .titangradnja-banner .care_title {
+    font-size: 4rem;
+  }
+}
+
 .titangradnja-banner .care_subtitle {
   font-size: 1.5rem;
   max-width: 50vw;
   text-align: center;
   margin: 0 auto;
   margin-top: 1.7rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .titangradnja-banner .care_subtitle {
+    max-width: 90vw;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  .titangradnja-banner .care_subtitle {
+    max-width: 85vw;
+    text-align: left;
+  }
 }
 
 .titangradnja-paralax {

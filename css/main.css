@@ -3529,7 +3529,6 @@ nav .menu-icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 10rem;
 }
 
 #exclusive .content_exclusive .ponuda {
@@ -3538,6 +3537,12 @@ nav .menu-icon {
   color: #008ec3;
   letter-spacing: .4rem;
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  #exclusive .content_exclusive .ponuda {
+    font-size: 2.5rem;
+  }
 }
 
 #exclusive .content_exclusive img {
@@ -3554,6 +3559,12 @@ nav .menu-icon {
 #exclusive .content_exclusive .inception {
   text-align: center;
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  #exclusive .content_exclusive .inception {
+    text-align: left;
+  }
 }
 
 #exclusive .content_exclusive .archives-titan {
@@ -3616,5 +3627,166 @@ nav .menu-icon {
 
 .exclusive_list_aktivnosti {
   text-align: left;
+  margin-left: 3rem;
+}
+
+#shredder-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 34, 62, 0.8)), to(rgba(0, 34, 62, 0.9))), url(../../img/banner.jpg) center/cover fixed no-repeat;
+  background: linear-gradient(rgba(0, 34, 62, 0.8), rgba(0, 34, 62, 0.9)), url(../../img/banner.jpg) center/cover fixed no-repeat;
+  height: 450px;
+  margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  #shredder-section {
+    height: 900px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+#shredder-section .shredder {
+  margin-top: 20%;
+}
+
+@media only screen and (max-width: 75em) {
+  #shredder-section .shredder {
+    margin-top: 27%;
+    margin-left: 2rem;
+  }
+}
+
+#shredder-section .shredder .shredder-tekst {
+  font-size: 2rem;
+  margin-left: 2.5rem;
+  color: #F4F4ED;
+}
+
+@media only screen and (max-width: 75em) {
+  #shredder-section .shredder .shredder-tekst {
+    margin-left: 0;
+  }
+}
+
+#shredder-section .shredder-img img {
+  margin-top: 2.6rem;
+  width: 60%;
+  margin-left: 18rem;
+}
+
+@media only screen and (max-width: 75em) {
+  #shredder-section .shredder-img img {
+    margin-top: 6rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  #shredder-section .shredder-img img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.hartija {
+  margin-bottom: 20rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .hartija {
+    margin-top: 10rem;
+  }
+}
+
+.hartija .stara-hartija p {
+  font-size: 1.8rem;
+  color: #00223e;
+}
+
+.hartija .floatright {
+  margin-top: 3rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.hartija .floatright p {
+  font-size: 2rem;
+}
+
+#isolated-section {
+  height: 450px;
+  margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  #isolated-section {
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+  }
+}
+
+#isolated-section .shredder {
+  margin-top: 20%;
+}
+
+@media only screen and (max-width: 75em) {
+  #isolated-section .shredder {
+    margin-top: 27%;
+    margin-left: 2rem;
+  }
+}
+
+#isolated-section .shredder .shredder-tekst {
+  font-size: 2rem;
+  color: #F4F4ED;
+}
+
+#isolated-section .shredder-img img {
+  margin-top: 2.6rem;
+  width: 60%;
+  margin-left: 18rem;
+}
+
+@media only screen and (max-width: 75em) {
+  #isolated-section .shredder-img img {
+    margin-top: 6rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  #isolated-section .shredder-img img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.hartija {
+  margin-bottom: 13rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .hartija {
+    margin-top: 10rem;
+  }
+}
+
+.hartija .stara-hartija {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.hartija .stara-hartija p {
+  font-size: 1.8rem;
+  color: #00223e;
+}
+
+.hartija .floatright {
+  margin-top: 3rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.hartija .floatright p {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

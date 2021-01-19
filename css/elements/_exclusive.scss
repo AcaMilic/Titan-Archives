@@ -1,26 +1,33 @@
 #exclusive{
     display: flex;
     align-items: center;
-    margin-bottom: 10rem;
     
     .content_exclusive{
-        
+
+
         .ponuda{
             text-align: center;
             font-size: 3rem;
             color: $color-primary-light;
             letter-spacing: .4rem;
             margin-bottom: 2rem;
+            @include respond(phone){
+                font-size: 2.5rem;
+               } 
         }
         img{
             align-items: center;
             margin: 0 auto;
             display: flex;
-            margin-bottom: 2rem;        
+            margin-bottom: 2rem;   
+   
         }
         .inception{
             text-align: center;
             font-size: 2rem;
+            @include respond(phone){
+                text-align: left;
+               } 
         }
         .archives-titan{
             font-size: 3rem;
@@ -82,5 +89,141 @@
     margin-top: -16rem;
 }
 .exclusive_list_aktivnosti{
+
     text-align: left;
+    margin-left: 3rem;
+}
+
+#shredder-section{
+    background: linear-gradient(rgba(0, 34, 62, 0.8), rgba(0, 34, 62, 0.9)), url(../../img/banner.jpg) center/cover fixed no-repeat;
+    height: 450px;
+    margin-bottom: 5rem;
+    @include respond(tab-port){
+       height: 900px;
+       width: 100%;
+       margin: 0 auto;
+      } 
+
+    .shredder{
+        margin-top: 20%;
+        @include respond(tab-land){
+            margin-top: 27%;  
+            margin-left: 2rem;
+          } 
+          
+     
+        .shredder-tekst{
+            font-size: 2rem;
+            margin-left: 2.5rem;
+            color: $color-white;
+            @include respond(tab-land){
+                margin-left: 0;
+              } 
+
+        }
+    }
+    .shredder-img{
+        img{
+            margin-top: 2.6rem;
+            width: 60%;
+            margin-left: 18rem;
+            @include respond(tab-land){
+              margin-top: 6rem;  
+            } 
+            @include respond(tab-port){
+              width: 100%;
+              margin: 0 auto;
+            } 
+
+            
+        }
+    }
+}
+
+  
+.hartija{
+    @include respond(tab-port){
+        margin-top: 10rem;
+      } 
+    margin-bottom: 20rem;
+    .stara-hartija{
+        p{
+            font-size: 1.8rem;
+            color: $color-primary-dark;
+        }
+    }
+    .floatright{
+        p{
+            font-size: 2rem;
+            
+        }
+        margin-top: 3rem;
+        font-style: italic;
+        text-align: right;
+    }
+}
+#isolated-section{
+    height: 450px;
+    margin-bottom: 5rem;
+    @include respond(tab-port){
+       width: 100%;
+       height: 750px;
+       margin: 0 auto;
+      } 
+
+    .shredder{
+        margin-top: 20%;
+        @include respond(tab-land){
+            margin-top: 27%;  
+            margin-left: 2rem;
+          } 
+          
+     
+        .shredder-tekst{
+            font-size: 2rem;
+            color: $color-white;
+
+        }
+    }
+    .shredder-img{
+        img{
+            margin-top: 2.6rem;
+            width: 60%;
+            margin-left: 18rem;
+            @include respond(tab-land){
+              margin-top: 6rem;  
+            } 
+            @include respond(tab-port){
+              width: 100%;
+              margin: 0 auto;
+            } 
+
+            
+        }
+    }
+}
+
+  
+.hartija{
+    @include respond(tab-port){
+        margin-top: 10rem;
+      } 
+    margin-bottom: 13rem;
+    .stara-hartija{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        p{
+            font-size: 1.8rem;
+            color: $color-primary-dark;
+        }
+    }
+    .floatright{
+        p{
+            font-size: 2rem;
+            
+        }
+        margin-top: 3rem;
+        font-style: italic;
+        text-align: right;
+    }
 }

@@ -58,6 +58,9 @@
     &::after {
       background-color: $color-primary-dark;
     }
+    &:hover{
+      color: $color-white;
+    }
   }
 
   &--white {

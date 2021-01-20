@@ -1045,10 +1045,6 @@ body {
   }
 }
 
-.about_nav {
-  background: transparent;
-}
-
 .menu {
   height: 12rem;
 }
@@ -1063,6 +1059,7 @@ body {
 nav {
   position: relative;
   width: 100%;
+  background: #00223e;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 34, 62, 0.6)), to(rgba(0, 0, 0, 0.7)));
   background: linear-gradient(to right bottom, rgba(0, 34, 62, 0.6), rgba(0, 0, 0, 0.7));
   z-index: 10292039402920;
@@ -1407,7 +1404,7 @@ nav .menu-icon {
 }
 
 .header-archives {
-  height: 80vh;
+  height: 120vh;
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 34, 62, 0.9)), to(rgba(0, 0, 0, 0.17))), url(../../img/shelf.jpg);
   background-image: linear-gradient(to right bottom, rgba(0, 34, 62, 0.9), rgba(0, 0, 0, 0.17)), url(../../img/shelf.jpg);
   background-size: cover;
@@ -1496,10 +1493,10 @@ nav .menu-icon {
   color: #008ec3;
 }
 
-.header-gradnja {
+.header-exclusive {
   height: 80vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 34, 62, 0.9)), to(rgba(0, 0, 0, 0.17))), url(../../img/sunset.jpg);
-  background-image: linear-gradient(to right bottom, rgba(0, 34, 62, 0.9), rgba(0, 0, 0, 0.17)), url(../../img/sunset.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 34, 62, 0.9)), to(rgba(0, 0, 0, 0.17))), url(../../img/shelf.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 34, 62, 0.9), rgba(0, 0, 0, 0.17)), url(../../img/shelf.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -1507,25 +1504,25 @@ nav .menu-icon {
   overflow: hidden;
 }
 
-.header-gradnja .heading-primary {
+.header-exclusive .heading-primary {
   margin-top: 15rem;
 }
 
 @supports ((-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0))) or (-webkit-clip-path: polygon(0 0)) {
-  .header-gradnja {
+  .header-exclusive {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 80%, 50% 90%, 0 80%, 0 0);
     clip-path: polygon(0 0, 100% 0, 100% 0, 100% 85%, 50% 95%, 0 85%, 0 0);
   }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (min-width: 175em) {
-  .header-gradnja {
+  .header-exclusive {
     background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 142, 195, 0.8)), to(rgba(0, 34, 62, 0.8)));
     background-image: linear-gradient(to right bottom, rgba(0, 142, 195, 0.8), rgba(0, 34, 62, 0.8));
   }
 }
 
-.header-gradnja .header__portfolio {
+.header-exclusive .header__portfolio {
   position: absolute;
   top: 9%;
   left: 50%;
@@ -1537,7 +1534,7 @@ nav .menu-icon {
   text-align: center;
 }
 
-.header-gradnja__text-box {
+.header-exclusive__text-box {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1546,18 +1543,18 @@ nav .menu-icon {
   text-align: center;
 }
 
-.header-gradnja__text-box .btn--whitee {
+.header-exclusive__text-box .btn--whitee {
   margin-right: 2rem;
 }
 
 @media only screen and (max-width: 37.5em) {
-  .header-gradnja__text-box {
+  .header-exclusive__text-box {
     top: 45%;
     width: 100%;
   }
 }
 
-.header-gradnja .fa-chevron-down {
+.header-exclusive .fa-chevron-down {
   position: absolute;
   top: 80%;
   left: 50%;
@@ -1577,12 +1574,12 @@ nav .menu-icon {
 }
 
 @media only screen and (max-height: 37.5em) {
-  .header-gradnja .fa-chevron-down {
+  .header-exclusive .fa-chevron-down {
     font-size: 2rem;
   }
 }
 
-.header-gradnja .fa-chevron-down:hover {
+.header-exclusive .fa-chevron-down:hover {
   color: #008ec3;
 }
 
@@ -1845,6 +1842,10 @@ nav .menu-icon {
 
 .btn--whitee::after {
   background-color: #00223e;
+}
+
+.btn--whitee:hover {
+  color: #F4F4ED;
 }
 
 .btn--white {
@@ -2275,20 +2276,13 @@ nav .menu-icon {
 }
 
 .contact {
-  background-image: linear-gradient(105deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 34, 62, 0.8) 30%, transparent 58%), url(../img/architecture3.jpg);
+  background-image: linear-gradient(105deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 34, 62, 0.8) 30%, transparent 58%), url(../img/book.jpg);
   background-size: 100%;
   border-radius: 3px;
   background-size: cover;
-  margin-left: 15rem;
+  width: 900px;
   -webkit-box-shadow: 1.2rem 1.5rem 4rem rgba(0, 34, 62, 0.4);
           box-shadow: 1.2rem 1.5rem 4rem rgba(0, 34, 62, 0.4);
-}
-
-@media only screen and (max-width: 37.5em) {
-  .contact {
-    margin-left: 0;
-    margin-top: 2rem;
-  }
 }
 
 @media only screen and (max-width: 75em) {
@@ -2298,7 +2292,7 @@ nav .menu-icon {
 }
 
 .contact__form {
-  padding: 4rem;
+  padding: 8rem;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -2318,8 +2312,8 @@ nav .menu-icon {
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(247, 247, 247, 0.1)), to(rgba(51, 51, 51, 0.4)));
   background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.1), rgba(51, 51, 51, 0.4));
   background-size: cover;
-  -webkit-transform: skewY(-9deg);
-          transform: skewY(-9deg);
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
   position: relative;
   margin-top: 20rem;
 }
@@ -2338,8 +2332,8 @@ nav .menu-icon {
 }
 
 .section-form > * {
-  -webkit-transform: skewY(9deg);
-          transform: skewY(9deg);
+  -webkit-transform: skewY(3deg);
+          transform: skewY(3deg);
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -2352,9 +2346,9 @@ nav .menu-icon {
   position: absolute;
   background-size: cover;
   background-position: center;
-  top: 14%;
+  top: 100px;
   left: 0;
-  width: 45%;
+  width: 35%;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -2366,8 +2360,8 @@ nav .menu-icon {
 @media only screen and (max-width: 37.5em) {
   .section-form .contact-wrap {
     position: unset;
-    width: 69%;
-    padding: 0;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -2393,8 +2387,8 @@ nav .menu-icon {
   padding: 10rem 0;
   background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 34, 62, 0.9))), url(../img/backgroundsecond.jpg);
   background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.9), rgba(0, 34, 62, 0.9)), url(../img/backgroundsecond.jpg);
-  -webkit-transform: skewY(-9deg);
-          transform: skewY(-9deg);
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -2403,8 +2397,8 @@ nav .menu-icon {
 }
 
 .navigation-footer > * {
-  -webkit-transform: skewY(9deg);
-          transform: skewY(9deg);
+  -webkit-transform: skewY(3deg);
+          transform: skewY(3deg);
 }
 
 .navigation-footer ul {
@@ -2734,132 +2728,6 @@ nav .menu-icon {
   color: #4272A5;
 }
 
-.titancare-banner {
-  margin: 0 auto;
-  max-width: 114rem;
-  padding-top: 550px;
-  padding-bottom: 120px;
-}
-
-.titancare-banner .portfolio_image_wrap {
-  position: absolute;
-  top: 55vh;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  height: 650px;
-  text-align: center;
-  z-index: 999;
-  width: 55vw;
-  overflow: hidden;
-  -webkit-box-shadow: 0px 0px 23px 0px #292929;
-          box-shadow: 0px 0px 23px 0px #292929;
-}
-
-.titancare-banner .portfolio_image_wrap .portfolio_image {
-  width: 100%;
-}
-
-.titancare-banner .care_title {
-  margin-top: 2.5rem;
-  text-align: center;
-  font-size: 5.5rem;
-  font-weight: bold;
-}
-
-.titancare-banner .care_subtitle {
-  font-size: 1.5rem;
-  max-width: 50vw;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 1.7rem;
-}
-
-.titancare-paralax {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 34, 62, 0.7)), to(rgba(0, 34, 62, 0.7))), url(../../img/care.jpg) center/cover fixed no-repeat;
-  background: linear-gradient(rgba(0, 34, 62, 0.7), rgba(0, 34, 62, 0.7)), url(../../img/care.jpg) center/cover fixed no-repeat;
-  height: 400px;
-}
-
-.titancare-paralax .paralax-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.titancare-paralax .paralax-wrap .paralax-heading {
-  text-align: center;
-  font-size: 5.2rem;
-  font-weight: bold;
-  text-shadow: 0 0 5px #1d1d1d;
-  color: white;
-}
-
-.titancare-paralax .paralax-wrap .paralax-btn {
-  text-align: center;
-  padding: 1rem 3.8rem;
-  margin-top: 3rem;
-  font-size: 2.6rem;
-}
-
-.titancare-numbers-wrap {
-  margin-bottom: 15rem;
-}
-
-.titancare-numbers-wrap .numbers-title-wrap {
-  background: #00223e;
-}
-
-.titancare-numbers-wrap .numbers-title-wrap .numbers-title {
-  margin: 0 auto;
-  max-width: 114rem;
-  font-size: 4rem;
-  padding: 1.6rem 0;
-  color: #b3b3b3;
-}
-
-.titancare-numbers-wrap .numbers {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 auto;
-  max-width: 114rem;
-  color: #00223e;
-}
-
-.titancare-numbers-wrap .numbers .single-number .digit {
-  text-align: center;
-  display: block;
-  min-width: 110px;
-  font-size: 8rem;
-}
-
-.titancare-numbers-wrap .numbers .single-number .number-title {
-  text-align: center;
-  font-size: 1.7rem;
-  min-width: 110px;
-}
-
-#about_me_archives {
-  padding-bottom: 5rem;
-  margin-bottom: 13rem;
-}
-
 @media only screen and (max-width: 56.25em) {
   #about_me_archives {
     margin-bottom: 0;
@@ -3163,8 +3031,8 @@ nav .menu-icon {
 .titangradnja-banner {
   margin: 0 auto;
   max-width: 114rem;
-  padding-top: 550px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .titangradnja-banner .portfolio_image_wrap {
@@ -3453,7 +3321,7 @@ nav .menu-icon {
 }
 
 .partneri .our-team {
-  padding: 30px 0 70px;
+  padding: 30px 0 90px;
   margin-bottom: 30px;
   border-radius: 5px;
   background-color: #00223e;
@@ -3648,6 +3516,7 @@ nav .menu-icon {
 .exclusive_list {
   font-size: 1.8rem;
   font-weight: bold;
+  margin-left: 2rem;
 }
 
 .lista-kulturnim-dobrima li {

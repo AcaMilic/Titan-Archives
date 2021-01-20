@@ -180,7 +180,7 @@
 }
 
 .header-archives {
-  height: 80vh;
+  height: 120vh;
   background-image: linear-gradient(to right bottom,
     rgba($color-primary-dark, 0.9),
     rgba($color-black, 0.17)),
@@ -269,12 +269,12 @@
 }
 
 
-.header-gradnja {
+.header-exclusive {
   height: 80vh;
   background-image: linear-gradient(to right bottom,
     rgba($color-primary-dark, 0.9),
     rgba($color-black, 0.17)),
-    url(../../img/sunset.jpg);
+    url(../../img/shelf.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;

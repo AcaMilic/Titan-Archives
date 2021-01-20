@@ -2315,7 +2315,7 @@ nav .menu-icon {
   -webkit-transform: skewY(-3deg);
           transform: skewY(-3deg);
   position: relative;
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 
 @media only screen and (max-width: 37.5em) {

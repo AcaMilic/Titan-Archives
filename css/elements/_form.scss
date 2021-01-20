@@ -176,7 +176,7 @@
     background-size: cover;
     transform: skewY(-3deg);
     position: relative;
-    margin-top: 20rem;
+    margin-top: 10rem;
 
     @include respond(phone) {
         margin-top: 10rem;

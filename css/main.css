@@ -2759,20 +2759,21 @@ nav .menu-icon {
 }
 
 #about_me_archives .logo_titan img {
+  margin-top: 5rem;
   max-width: 100%;
 }
 
 @media only screen and (max-width: 75em) {
   #about_me_archives .logo_titan img {
     width: 80%;
-    margin-top: 6rem;
+    margin-top: 10rem;
   }
 }
 
 @media only screen and (max-width: 56.25em) {
   #about_me_archives .logo_titan img {
     width: 100%;
-    margin-top: -3rem;
+    margin-top: -5rem;
   }
 }
 
@@ -2921,6 +2922,11 @@ nav .menu-icon {
 .titarchives-paralax .paralax-wrap .button-center .button-projects {
   margin-top: 6rem;
   margin-right: 2rem;
+}
+
+.titan-archive-heading {
+  text-align: center;
+  width: 100%;
 }
 
 #about_me_gradnja {
